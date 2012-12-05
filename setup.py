@@ -20,7 +20,7 @@ def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
 setup(name='zope.html',
-      version = '2.4.2dev',
+      version='2.4.2dev',
       author='Zope Foundation and Contributors',
       author_email='zope-dev@zope.org',
       description='HTML and XHTML Editing Support',
@@ -57,10 +57,7 @@ setup(name='zope.html',
       package_dir = {'': 'src'},
       namespace_packages=['zope'],
       extras_require = dict(
-          test=['zope.app.authentication',
-                'zope.app.debugskin',
-                'zope.app.server',
-                'zope.app.testing',
+          test=['zope.app.testing',
                 'zope.app.zcmlfiles',
                 'zope.testing',
                 'zope.testbrowser',

@@ -2,6 +2,12 @@
 CHANGES
 =======
 
+2.4.2 (unreleased)
+------------------
+
+- Remove unneeded zope.app.authentication/debugskin/server test dependencies.
+
+
 2.4.1 (2012-01-26)
 ------------------
 

@@ -18,10 +18,6 @@
       package="zope.app"
       />
 
-  <include package="zope.app.debugskin" />
-  <include package="zope.app.server" />
-  <include package="zope.app.authentication" />
-
   <authenticatedGroup
     id="zope.Authenticated"
     title="Everybody"
