@@ -6,6 +6,7 @@ CHANGES
 ------------------
 
 - Remove unneeded zope.app.authentication/debugskin/server test dependencies.
+- Support for test output changed in zope.testbrowser 4.0.3
 
 
 2.4.1 (2012-01-26)

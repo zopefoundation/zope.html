@@ -93,7 +93,7 @@ form::
   >>> browser.getControl(name="form.encoding")
   Traceback (most recent call last):
     ...
-  LookupError: name 'form.encoding'
+  LookupError: name 'form.encoding'...
 
 Since our selected encoding does not support all Unicode characters,
 there is an option available to allow re-encoding of the document if
