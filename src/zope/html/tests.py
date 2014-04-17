@@ -36,10 +36,10 @@ from zope.app.testing import functional
 import zope.html.widget
 
 
-class FckeditorWidgetTestCase(
+class CkeditorWidgetTestCase(
     zope.formlib.tests.test_textareawidget.TextAreaWidgetTest):
 
-    _WidgetFactory = zope.html.widget.FckeditorWidget
+    _WidgetFactory = zope.html.widget.CkeditorWidget
 
 
 def setUp(test):
@@ -75,6 +75,6 @@ def test_suite():
         doctest.DocFileSuite(
             "widget.txt",
             optionflags=(doctest.ELLIPSIS | doctest.NORMALIZE_WHITESPACE)),
-        unittest.makeSuite(FckeditorWidgetTestCase),
+        unittest.makeSuite(CkeditorWidgetTestCase),
         ftests,
         ])

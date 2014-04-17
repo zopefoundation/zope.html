@@ -48,7 +48,7 @@
       type="zope.publisher.interfaces.browser.IBrowserRequest"
       for=".field.IHtmlFragmentField"
       provides="zope.formlib.interfaces.IInputWidget"
-      factory=".widget.FckeditorWidget"
+      factory=".widget.CkeditorWidget"
       permission="zope.Public"
       />
 
@@ -56,20 +56,13 @@
       type="zope.publisher.interfaces.browser.IBrowserRequest"
       for=".field.IXhtmlFragmentField"
       provides="zope.formlib.interfaces.IInputWidget"
-      factory=".widget.FckeditorWidget"
+      factory=".widget.CkeditorWidget"
       permission="zope.Public"
       />
 
-  <resourceLibrary name="fckeditor">
-    <directory
-        source="fckeditor"
-        include="2.6.4.1/fckeditor/fckeditor.js"
-        />
-  </resourceLibrary>
-
   <browser:resource
-      file="zope_fckconfig.js"
-      name="zope_fckconfig.js"
+      file="zope_ckconfig.js"
+      name="zope_ckconfig.js"
       />
 
   <resourceLibrary name="ckeditor">

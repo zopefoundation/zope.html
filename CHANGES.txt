@@ -2,10 +2,10 @@
 CHANGES
 =======
 
-2.4.3 (unreleased)
+3.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Remove FCKEditor, only use CKEditor.
 
 
 2.4.2 (2014-04-17)

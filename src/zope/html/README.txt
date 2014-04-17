@@ -3,8 +3,8 @@ HTML file editing support
 =========================
 
 This package contains support for editing HTML and XHTML inside a web
-page using the FCKeditor as a widget.  This is a fairly simple
-application of FCKeditor, and simply instantiates a pre-configured
+page using the CKEditor as a widget.  This is a fairly simple
+application of CKEditor, and simply instantiates a pre-configured
 editor for each widget.  There are no options to control the editors
 individually.
 
@@ -15,7 +15,7 @@ other editors do any better; what's available seems to be a mixed bag.
 - The editor only deals with what can be contained inside a <body>
   element; anything that goes outside that, including the <body> and
   </body> tags, get lost or damaged.  If there's any way to configure
-  FCKeditor to deal with such material, it isn't documented.
+  CKEditor to deal with such material, it isn't documented.
 
 - There's no real control of the HTML source; whitespace is not
   preserved as a programmer would expect.  That's acceptable in many
@@ -25,12 +25,12 @@ other editors do any better; what's available seems to be a mixed bag.
 Implementation problems
 -----------------------
 
-These are problems with the widget used to integrate FCKeditor rather
-than problems with FCKeditor itself.  These should be dealt with.
+These are problems with the widget used to integrate CKEditor rather
+than problems with CKEditor itself.  These should be dealt with.
 
 - The width of the editor is hardcoded; this should be either
   configurable or the editor should stretch to fill the available
-  space.  The sample uses of the FCKeditor don't seem to exhibit this
+  space.  The sample uses of the CKEditor don't seem to exhibit this
   problem, so it can be better than it is.
 
 - The height of the editor should be configurable in a way similar to
@@ -62,10 +62,10 @@ plans to do so at this time:
   interesting at some point, but a rough reading at this time
   indicates that XINHA may be a more reasonable route.
 
-More information about FCKeditor
+More information about CKEditor
 --------------------------------
 
-- http://www.fckeditor.net/
+- http://www.ckeditor.com/
 
 - http://discerning.com/topics/software/ttw.html
 

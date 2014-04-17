@@ -8,13 +8,10 @@ Things that need to be done
   with a preference setting, possibly allowing a different editor to
   be plugged in.
 
-- Fetch FCKeditor separately instead of including it in the
+- Fetch CKeditor separately instead of including it in the
   zope.html checkout.
 
-- Add support for FCKeditor plugins; it would be cool to have the
-  full-screen editor from here:
-
-    http://www.saulmade.nl/FCKeditor/FCKPlugins.php
+- Add support for CKeditor plugins.
 
 - Better widgets, with less haphazard configurability.  There should
   really be display widgets as well.
