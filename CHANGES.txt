@@ -6,6 +6,7 @@ CHANGES
 ------------------
 
 - Remove FCKEditor, only use CKEditor.
+- Do not use versioned directories.
 
 
 2.4.2 (2014-04-17)
