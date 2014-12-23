@@ -16,8 +16,11 @@
 import os
 from setuptools import setup, find_packages
 
+
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    with open(os.path.join(os.path.dirname(__file__), *rnames)) as f:
+        return f.read()
+
 
 setup(name='zope.html',
       version='3.0.0.dev0',
@@ -39,7 +42,7 @@ setup(name='zope.html',
           read('src', 'zope', 'html', 'browser.txt')
           + '\n\n' +
           read('CHANGES.txt')
-          ),
+      ),
       keywords = "zope3 html widget fsck editor",
       classifiers = [
           'Development Status :: 5 - Production/Stable',
@@ -80,7 +83,7 @@ setup(name='zope.html',
           'zope.mimetype < 2.0.0a1',
           'zope.publisher',
           'zope.schema',
-          ],
+      ],
       include_package_data = True,
       zip_safe = False,
       )
