@@ -10,5 +10,9 @@ Deprecated / Unmaintained
 -------------------------
 
 This package is deprecated, and is no longer being maintained.  Future
-releases will *not* be made.
+releases will *not* be made from this repository unless a new maintainer
+volunteers.
+
+If you are interested in maintaining the package, please ask on the
+zope-dev@zope.org mailing list.
 ***************************************************************************
