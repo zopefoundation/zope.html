@@ -2,8 +2,8 @@
 CHANGES
 =======
 
-3.0.0 (unreleased)
-------------------
+2.4.99 (will not be released)
+-----------------------------
 
 - Remove FCKEditor, only use CKEditor.
 - Do not use versioned directories.

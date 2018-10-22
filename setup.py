@@ -23,7 +23,7 @@ def read(*rnames):
 
 
 setup(name='zope.html',
-      version='3.0.0.dev0',
+      version='2.4.99',  # no more releases!
       author='Zope Foundation and Contributors',
       author_email='zope-dev@zope.org',
       description='HTML and XHTML Editing Support',
@@ -45,7 +45,7 @@ setup(name='zope.html',
       ),
       keywords = "zope3 html widget fsck editor",
       classifiers = [
-          'Development Status :: 5 - Production/Stable',
+          'Development Status :: 7 - Inactive',
           'Environment :: Web Environment',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: Zope Public License',
